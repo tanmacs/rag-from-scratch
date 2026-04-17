@@ -1,0 +1,240 @@
+{
+  "summary": {
+    "retrieval_precision_at_3": 1.0,
+    "answer_correctness": 1.0,
+    "grounding_score": 1.0,
+    "overall": 1.0,
+    "pass_threshold": {
+      "retrieval": 0.6,
+      "correctness": 0.6,
+      "grounding": 0.7
+    }
+  },
+  "results": [
+    {
+      "id": "A1",
+      "category": "retrieval",
+      "query": "Which city in the documents served as Japan's imperial capital for more than a thousand years?",
+      "chunks_retrieved": [
+        "Kyoto is a historic city in Japan that served as the country's imperial capital for more than a thousand years. It was established in 794 under the name Heian-kyo, and for centuries it functioned as the political and cultural center of the imperial court. Although Tokyo later became the national",
+        "court. Although Tokyo later became the national capital, Kyoto retained enormous symbolic importance because it preserved rituals, architecture, and artistic traditions tied to earlier periods of Japanese history. The city is located in a basin in the Kansai region and is surrounded by mountains, a",
+        "rich record of Japanese urban, religious, and artistic history across many centuries."
+      ],
+      "answer": "Kyoto is a historic city in Japan that served as the country's imperial capital for more than a thousand years.",
+      "auto_retrieval_score": 1.0,
+      "human_score": null,
+      "retrieval_time_s": 5.541,
+      "generation_time_s": 1.075
+    },
+    {
+      "id": "A2",
+      "category": "retrieval",
+      "query": "Who is often called the first computer programmer in the documents?",
+      "chunks_retrieved": [
+        "be interpreted as a computer program, Lovelace is frequently called the first computer programmer. Her importance is not limited to that label. She also argued that a general-purpose machine could manipulate symbols, not only numbers, if those symbols could be represented according to rules. That",
+        "and formal reasoning while still young.\n\nLovelace met Charles Babbage in 1833 and became fascinated by his Difference Engine and his more ambitious Analytical Engine design. The Analytical Engine was never completed, but it introduced many ideas that later appeared in modern computers. It would",
+        "that later appeared in modern computers. It would have used punched cards for input, a memory store for data, and a mill for processing calculations. In 1843 Lovelace translated an article about the engine by the Italian engineer Luigi Menabrea. She added a set of extensive notes that became much"
+      ],
+      "answer": "Lovelace is frequently called the first computer programmer.",
+      "auto_retrieval_score": 1.0,
+      "human_score": null,
+      "retrieval_time_s": 0.014,
+      "generation_time_s": 0.528
+    },
+    {
+      "id": "A3",
+      "category": "retrieval",
+      "query": "What date is given for the Apollo 11 launch?",
+      "chunks_retrieved": [
+        "Apollo 11 launched from Kennedy Space Center in Florida on July 16, 1969, aboard a Saturn V rocket. The three astronauts on the mission were Neil Armstrong, Buzz Aldrin, and Michael Collins. Collins remained in lunar orbit aboard the command module Columbia while Armstrong and Aldrin traveled to",
+        "Apollo 11 was the American spaceflight mission that achieved the first crewed landing on the Moon. The mission was part of NASA's Apollo program, which was developed during the Cold War space race between the United States and the Soviet Union. Apollo 11 launched from Kennedy Space Center in",
+        "they came in peace for all mankind. The televised landing became one of the most widely watched events in history.\n\nApollo 11 demonstrated that the United States could carry out a complex mission involving launch, lunar landing, surface operations, rendezvous, and safe return to Earth. After"
+      ],
+      "answer": "Apollo 11 launched from Kennedy Space Center in Florida on July 16, 1969, aboard a Saturn V rocket.",
+      "auto_retrieval_score": 1.0,
+      "human_score": null,
+      "retrieval_time_s": 0.009,
+      "generation_time_s": 0.294
+    },
+    {
+      "id": "A4",
+      "category": "retrieval",
+      "query": "What process explains the large-scale movement of Earth's lithosphere?",
+      "chunks_retrieved": [
+        "Plate tectonics is the scientific theory that explains the large-scale movement of Earth's lithosphere. According to the theory, the outer shell of the Earth is broken into rigid plates that move slowly over the softer asthenosphere beneath them. This movement is driven by processes such as mantle",
+        "movement is driven by processes such as mantle convection, slab pull, and ridge push. Although the plates shift only a few centimeters each year, their motion over millions of years reshapes oceans, continents, and mountain belts.\n\nThere are several kinds of plate boundaries, and each produces",
+        "may sink beneath another in a process called subduction, which can generate deep ocean trenches, volcanic arcs, and powerful earthquakes. When continental plates collide, they can crumple and uplift large mountain ranges such as the Himalayas. At transform boundaries, plates slide past one another"
+      ],
+      "answer": "Plate tectonics is the scientific theory that explains the large-scale movement of Earth's lithosphere.",
+      "auto_retrieval_score": 1.0,
+      "human_score": null,
+      "retrieval_time_s": 0.01,
+      "generation_time_s": 1.018
+    },
+    {
+      "id": "A5",
+      "category": "retrieval",
+      "query": "What process in plants converts light energy into chemical energy?",
+      "chunks_retrieved": [
+        "Photosynthesis is the biological process that allows plants, algae, and some bacteria to convert light energy into chemical energy. In green plants the process takes place mainly inside chloroplasts, which contain the pigment chlorophyll. Chlorophyll absorbs portions of the visible light spectrum,",
+        "absorbed light energy is used to split water molecules, releasing oxygen and generating ATP and NADPH. These molecules temporarily store energy that the plant can use in later reactions. The second stage is the Calvin cycle, which takes place in the stroma of the chloroplast. In the Calvin cycle",
+        "to make glucose, while oxygen is released as a by-product.\n\nScientists often describe photosynthesis in two linked stages. The first stage is the light-dependent reaction, which occurs in the thylakoid membranes of the chloroplast. In this stage absorbed light energy is used to split water"
+      ],
+      "answer": "Photosynthesis is the biological process that allows plants, algae, and some bacteria to convert light energy into chemical energy.",
+      "auto_retrieval_score": 1.0,
+      "human_score": null,
+      "retrieval_time_s": 0.015,
+      "generation_time_s": 0.867
+    },
+    {
+      "id": "B1",
+      "category": "correctness",
+      "query": "What idea did Ada Lovelace propose about what a general-purpose machine could manipulate?",
+      "chunks_retrieved": [
+        "could be represented according to rules. That insight anticipated later ideas about computers handling music, text, and images. Ada Lovelace died on November 27, 1852, at the age of thirty-six, but her writings remain central to the history of computing.",
+        "be interpreted as a computer program, Lovelace is frequently called the first computer programmer. Her importance is not limited to that label. She also argued that a general-purpose machine could manipulate symbols, not only numbers, if those symbols could be represented according to rules. That",
+        "and formal reasoning while still young.\n\nLovelace met Charles Babbage in 1833 and became fascinated by his Difference Engine and his more ambitious Analytical Engine design. The Analytical Engine was never completed, but it introduced many ideas that later appeared in modern computers. It would"
+      ],
+      "answer": "She also argued that a general-purpose machine could manipulate symbols, not only numbers, if those symbols could be represented according to rules.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.012,
+      "generation_time_s": 0.674
+    },
+    {
+      "id": "B2",
+      "category": "correctness",
+      "query": "Where does the light-dependent reaction occur?",
+      "chunks_retrieved": [
+        "to make glucose, while oxygen is released as a by-product.\n\nScientists often describe photosynthesis in two linked stages. The first stage is the light-dependent reaction, which occurs in the thylakoid membranes of the chloroplast. In this stage absorbed light energy is used to split water",
+        "absorbed light energy is used to split water molecules, releasing oxygen and generating ATP and NADPH. These molecules temporarily store energy that the plant can use in later reactions. The second stage is the Calvin cycle, which takes place in the stroma of the chloroplast. In the Calvin cycle",
+        "Photosynthesis is the biological process that allows plants, algae, and some bacteria to convert light energy into chemical energy. In green plants the process takes place mainly inside chloroplasts, which contain the pigment chlorophyll. Chlorophyll absorbs portions of the visible light spectrum,"
+      ],
+      "answer": "The first stage is the light-dependent reaction, which occurs in the thylakoid membranes of the chloroplast.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.009,
+      "generation_time_s": 0.683
+    },
+    {
+      "id": "B3",
+      "category": "correctness",
+      "query": "Explain the relationship between the light-dependent reactions and the Calvin cycle.",
+      "chunks_retrieved": [
+        "absorbed light energy is used to split water molecules, releasing oxygen and generating ATP and NADPH. These molecules temporarily store energy that the plant can use in later reactions. The second stage is the Calvin cycle, which takes place in the stroma of the chloroplast. In the Calvin cycle",
+        "to make glucose, while oxygen is released as a by-product.\n\nScientists often describe photosynthesis in two linked stages. The first stage is the light-dependent reaction, which occurs in the thylakoid membranes of the chloroplast. In this stage absorbed light energy is used to split water",
+        "stroma of the chloroplast. In the Calvin cycle the plant uses ATP and NADPH to fix carbon dioxide into organic molecules that eventually contribute to glucose formation.\n\nPhotosynthesis matters because it supports nearly all food webs on Earth. Plants use the glucose they produce to grow roots,"
+      ],
+      "answer": "The first stage is the light-dependent reaction, which occurs in the thylakoid membranes of the chloroplast. The second stage is the Calvin cycle, which takes place in the stroma of the chloroplast.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.012,
+      "generation_time_s": 0.799
+    },
+    {
+      "id": "B4",
+      "category": "correctness",
+      "query": "What made Apollo 11 a major technological achievement according to the documents?",
+      "chunks_retrieved": [
+        "they came in peace for all mankind. The televised landing became one of the most widely watched events in history.\n\nApollo 11 demonstrated that the United States could carry out a complex mission involving launch, lunar landing, surface operations, rendezvous, and safe return to Earth. After",
+        "Apollo 11 was the American spaceflight mission that achieved the first crewed landing on the Moon. The mission was part of NASA's Apollo program, which was developed during the Cold War space race between the United States and the Soviet Union. Apollo 11 launched from Kennedy Space Center in",
+        "Apollo 11 launched from Kennedy Space Center in Florida on July 16, 1969, aboard a Saturn V rocket. The three astronauts on the mission were Neil Armstrong, Buzz Aldrin, and Michael Collins. Collins remained in lunar orbit aboard the command module Columbia while Armstrong and Aldrin traveled to"
+      ],
+      "answer": "Apollo 11 demonstrated that the United States could carry out a complex mission involving launch, lunar landing, surface operations, rendezvous, and safe return to Earth. Apollo 11 was the American spaceflight mission that achieved the first crewed landing on the Moon.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.016,
+      "generation_time_s": 1.086
+    },
+    {
+      "id": "B5",
+      "category": "correctness",
+      "query": "What happens at divergent boundaries according to the documents?",
+      "chunks_retrieved": [
+        "kinds of plate boundaries, and each produces characteristic geological effects. At divergent boundaries, plates move apart and new crust forms, as seen along mid-ocean ridges. At convergent boundaries, plates move toward one another. One plate may sink beneath another in a process called",
+        "may sink beneath another in a process called subduction, which can generate deep ocean trenches, volcanic arcs, and powerful earthquakes. When continental plates collide, they can crumple and uplift large mountain ranges such as the Himalayas. At transform boundaries, plates slide past one another",
+        "boundaries, plates slide past one another horizontally, producing faults like the San Andreas Fault in California.\n\nPlate tectonics helps explain why earthquakes and volcanoes are concentrated in specific zones rather than distributed randomly. It also clarifies how fossils and rock formations on"
+      ],
+      "answer": "At divergent boundaries, plates move apart and new crust forms, as seen along mid-ocean ridges.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.012,
+      "generation_time_s": 0.713
+    },
+    {
+      "id": "C1",
+      "category": "grounding",
+      "query": "What was Ada Lovelace's favorite piece of music?",
+      "chunks_retrieved": [
+        "could be represented according to rules. That insight anticipated later ideas about computers handling music, text, and images. Ada Lovelace died on November 27, 1852, at the age of thirty-six, but her writings remain central to the history of computing.",
+        "Milbanke. Her mother encouraged the study of mathematics and logic, partly because she wanted Ada to avoid the emotional extremes associated with Byron. Ada was educated by private tutors, and she developed a strong interest in machines, patterns, and formal reasoning while still young.\n\nLovelace",
+        "Ada Lovelace was an English mathematician and writer who is often remembered for her work on Charles Babbage's proposed Analytical Engine. She was born Augusta Ada Byron in London on December 10, 1815, the daughter of the poet Lord Byron and Annabella Milbanke. Her mother encouraged the study of"
+      ],
+      "answer": "I don't know based on the provided context.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.011,
+      "generation_time_s": 0.519
+    },
+    {
+      "id": "C2",
+      "category": "grounding",
+      "query": "List five facts about Kyoto that are not included in the documents.",
+      "chunks_retrieved": [
+        "districts. During the Second World War Kyoto was notably spared from the atomic bombings that destroyed Hiroshima and Nagasaki, a fact that helped preserve much of its historical built environment. Because of that continuity, the city offers an unusually rich record of Japanese urban, religious,",
+        "Kansai region and is surrounded by mountains, a setting that influenced both its climate and urban development.\n\nKyoto is known for its dense concentration of temples, shrines, gardens, and traditional wooden neighborhoods. Famous sites include Kiyomizu-dera, Kinkaku-ji, and Fushimi Inari Taisha,",
+        "a museum city. It is also home to universities, research institutions, and technology companies, which means old and new coexist closely. Narrow lanes with machiya townhouses can stand only a short distance from rail lines and modern commercial districts. During the Second World War Kyoto was"
+      ],
+      "answer": "I don't know based on the provided context.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.013,
+      "generation_time_s": 1.187
+    },
+    {
+      "id": "C3",
+      "category": "grounding",
+      "query": "What is the current population of Kyoto?",
+      "chunks_retrieved": [
+        "Kyoto is a historic city in Japan that served as the country's imperial capital for more than a thousand years. It was established in 794 under the name Heian-kyo, and for centuries it functioned as the political and cultural center of the imperial court. Although Tokyo later became the national",
+        "Kansai region and is surrounded by mountains, a setting that influenced both its climate and urban development.\n\nKyoto is known for its dense concentration of temples, shrines, gardens, and traditional wooden neighborhoods. Famous sites include Kiyomizu-dera, Kinkaku-ji, and Fushimi Inari Taisha,",
+        "visitors, while summer festivals such as Gion Matsuri connect contemporary life to long-standing civic traditions. Craft production also remains important, including textiles, ceramics, lacquerware, and tea-related goods.\n\nModern Kyoto is not simply a museum city. It is also home to universities,"
+      ],
+      "answer": "I don't know based on the provided context.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.012,
+      "generation_time_s": 0.402
+    },
+    {
+      "id": "C4",
+      "category": "grounding",
+      "query": "What did experts say about plate tectonics in 2024?",
+      "chunks_retrieved": [
+        "theory unified those observations into a single framework in the mid-twentieth century. Today plate tectonics is one of the foundational concepts of Earth science because it links deep planetary processes with the landscapes and hazards observed at the surface.",
+        "Plate tectonics is the scientific theory that explains the large-scale movement of Earth's lithosphere. According to the theory, the outer shell of the Earth is broken into rigid plates that move slowly over the softer asthenosphere beneath them. This movement is driven by processes such as mantle",
+        "also clarifies how fossils and rock formations on widely separated continents can show striking similarities. Before plate tectonics was widely accepted, scientists debated continental drift and seafloor spreading as separate ideas. The modern theory unified those observations into a single"
+      ],
+      "answer": "I don't know based on the provided context.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.012,
+      "generation_time_s": 0.645
+    },
+    {
+      "id": "C5",
+      "category": "grounding",
+      "query": "Invent a plausible next chapter for the Apollo 11 mission after splashdown.",
+      "chunks_retrieved": [
+        "they came in peace for all mankind. The televised landing became one of the most widely watched events in history.\n\nApollo 11 demonstrated that the United States could carry out a complex mission involving launch, lunar landing, surface operations, rendezvous, and safe return to Earth. After",
+        "Apollo 11 was the American spaceflight mission that achieved the first crewed landing on the Moon. The mission was part of NASA's Apollo program, which was developed during the Cold War space race between the United States and the Soviet Union. Apollo 11 launched from Kennedy Space Center in",
+        "Apollo 11 launched from Kennedy Space Center in Florida on July 16, 1969, aboard a Saturn V rocket. The three astronauts on the mission were Neil Armstrong, Buzz Aldrin, and Michael Collins. Collins remained in lunar orbit aboard the command module Columbia while Armstrong and Aldrin traveled to"
+      ],
+      "answer": "I don't know based on the provided context.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.015,
+      "generation_time_s": 1.558
+    }
+  ]
+}
